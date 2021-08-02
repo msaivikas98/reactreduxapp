@@ -1,0 +1,32 @@
+.container{
+    display:flex;
+    justify-content: center;
+}
+
+.card{
+    background-color:#0ee6ac;
+    width:20%;
+    margin-left:50px;
+    transition: transform 0.2s;
+    padding-bottom:30px;
+}
+
+.button{
+    border:0px;
+    outline:none;
+    cursor:pointer;
+    color:orange;
+    background-color:white;
+    border-radius:8px;
+    min-height:30px;
+    min-width:60px;
+    box-sizing: border-box;
+}
+button:hover{
+    color:white;
+    background-color:orange;
+}
+
+.card:hover{
+    transform: scale(1.2);
+}
